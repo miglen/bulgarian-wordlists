@@ -10,6 +10,7 @@
     * [Имена](#Имена)
     * [ЕГН](#Единен-граждански-номер-ЕГН)
     * [Населени места](#Населени-места)
+  * [Изтегляне](#Изтегляне)
   * [TO DO](#to-do)
 
 ## Какво е wordlist?
@@ -18,21 +19,17 @@
 ## Списъци
 Списъците съдържат думи на кирилица с малки букви (lowercase) подредени азбучно в текстови файлове с UTF-8 енкодинг. 
 
-Изтегляне на всички думи: [all.txt (кирилица)](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all.txt?raw=true) *(755130 записа)*
 
 ### Думи
 Списък с думи на български език, без различни форми и времена за сега.
 
 Източници: [1](https://github.com/vanyog/grammar-bg) [2](https://github.com/titoBouzout/Dictionaries)
 
-Изтегляне: [bulgarian-words.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-words.txt?raw=true) *(86228 записа)* [bulgarian-wikipedia.txt - Думи в Уикипедия](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-wikipedia.txt?raw=true) *(714859 записа)* 
 
 ### Имена
 Списък с имена на български език. Списъка е подреден в един файл с всички налични имена от източника.
 
 Източници: http://stratsimir.exsisto.com/
-
-Изтегляне: [bulgarian-names.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-names.txt?raw=true) *(5506 записа)*
 
 ### Единен граждански номер (ЕГН)
 Списък с единни граждански номера на български граждани. Списъка е подреден в отделни файлове по години, както и файл със всички възможни валидни номера.
@@ -45,13 +42,18 @@
 
 Източници: [Национален Статистически Институт](www.nsi.bg/nrnm)
 
-Изтегляне: [bulgarian-geo.txt](https://raw.githubusercontent.com/miglen/bulgarian-wordlists/master/wordlists/bulgarian-geo.txt) *(4657 записа)*
+
+### Изтегляне
+|Тип|Кирилица|Транслителирани|Шльокавица|Записи|
+|--|--|--|--|--
+|Думи|[bulgarian-words-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-words-cyrillic.txt?raw=true)|[bulgarian-words-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-words-latin.txt?raw=true)|[bulgarian-words-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-words-6lyokavica.txt?raw=true)|752 537
+|Имена|[bulgarian-names-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-names-cyrillic.txt?raw=true)|[bulgarian-names-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-names-latin.txt?raw=true)|[bulgarian-names-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-names-6lyokavica.txt?raw=true)|5 506
+|Населени места|[bulgarian-geo-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-geo-cyrillic.txt?raw=true)|[bulgarian-geo-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-geo-latin.txt?raw=true)|[bulgarian-geo-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bulgarian-geo-6lyokavica.txt?raw=true)|4 657
+|Всички думи|[all-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-cyrillic.txt?raw=true)|[all-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-latin.txt?raw=true)|[all-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-6lyokavica.txt?raw=true)|755 130
+
 
 ### TO DO
- * Конвертиране на имената в:
-   * Транслитерация на латиница
-   * Шльокавица
- * Думи - добавяне на всички думи на български език както и категории. Потенциален източник: [анализ на думите в Уикипедия](http://nikolay.it/Blog/2011/08/%D0%90%D0%BD%D0%B0%D0%BB%D0%B8%D0%B7-%D0%BD%D0%B0-%D0%B1%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D1%81%D0%BA%D0%B8%D1%8F-%D0%B5%D0%B7%D0%B8%D0%BA-%D1%87%D1%80%D0%B5%D0%B7-Wikipedia/3)
+ * Думи - добавяне на всички думи на български език както и категории.
    * Старобългарски
    * Неологизми
    * Диалектни
