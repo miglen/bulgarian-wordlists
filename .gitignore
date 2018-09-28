@@ -1,3 +1,4 @@
 wordlists/*.txt.sorted
 wordlists/*.txt.sorted.md5
 wordlists/*.txt.sorted.sha1
+wordlists/*.txt.sorted.rainbow
