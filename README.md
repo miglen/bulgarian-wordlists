@@ -7,7 +7,7 @@
 ## Списъци с думи
 Списъците съдържат думи на кирилица с малки букви (lowercase) подредени азбучно в текстови файлове с UTF-8 енкодинг. Налични са в три формата - кирилица, транслителирани, шльокавица.
 
- * **Български имена** - Списък с имена на български език. Източници: [[1]](http://stratsimir.exsisto.com/)
+ * **Български имена** - Списък с имена на български език, включително старобългарски имена. Източници: [[1]](http://stratsimir.exsisto.com/) [[2]](http://samoistina.com/3/imenatani.htm) [[3]](http://www.angelfire.com/ca6/ivayla/bgnames.htm) [[4]](http://stratsimir.exsisto.com/)
  * **Населени места** - Списък с имената на населените места в България. Източници: [[1]](http://www.nsi.bg/nrnm)
  * **Некатегоризирани думи** - Други думи на български език без определена категория за момента. Източници: [[1]](https://github.com/vanyog/grammar-bg) [[2]](https://github.com/titoBouzout/Dictionaries)
  * **Жаргонни думи** - Списък с популярните жаргонни изрази в България. Източници: [[1]](https://bgjargon.com)
@@ -23,7 +23,7 @@
 ### Изтегляне
 |Тип|Кирилица|Транслителирани|Шльокавица|Записи|
 |--|--|--|--|--
-|Български имена|[bg-names-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-names-cyrillic.txt?raw=true)|[bg-names-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-names-latin.txt?raw=true)|[bg-names-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-names-6lyokavica.txt?raw=true)|5506
+|Български имена|[bg-names-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-names-cyrillic.txt?raw=true)|[bg-names-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-names-latin.txt?raw=true)|[bg-names-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-names-6lyokavica.txt?raw=true)|6472
 |Населени места|[bg-geo-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-geo-cyrillic.txt?raw=true)|[bg-geo-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-geo-latin.txt?raw=true)|[bg-geo-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-geo-6lyokavica.txt?raw=true)|4657
 |Жаргонни думи|[bg-jargon-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-jargon-cyrillic.txt?raw=true)|N/A|N/A|15264
 |Неологизми|[bg-neologisms-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-neologisms-cyrillic.txt?raw=true)|N/A|N/A|2381
@@ -31,3 +31,13 @@
 |Неприлични думи|[bg-obscene-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-obscene-cyrillic.txt?raw=true)|N/A|N/A|499
 |Некатегоризирани думи|[bg-words-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-cyrillic.txt?raw=true)|[bg-words-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-latin.txt?raw=true)|[bg-words-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-6lyokavica.txt?raw=true)|752537
 |Всички думи|[all-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-cyrillic.txt?raw=true)|[all-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-latin.txt?raw=true)|[all-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-6lyokavica.txt?raw=true)|755130
+
+### Принос и разработка
+За да добавите нови думи или файлове използвайте функционалноста на github. Добавяйте записи само във файловете с кирилица, останалото се генерира след като използвате скриптовете.
+
+### Логиката на генериране на записите е следната:
+ 1. Записи на Кирилица > Транслитерация > Сортирание и премахване на повтаряеми записи > Транслирани записи
+ 2. Записи на Кирилица > Шльокавица > Сортирание и премахване на повтаряеми записи > Записи на Шльокавица
+ 3. Шльокавица + Транслирани записи > Сортирание и премахване на повтаряеми записи > Записи на латиница
+ 4. Латиница + Кирилица > Всички записи
+ 5. Генериране на rainbow таблици
