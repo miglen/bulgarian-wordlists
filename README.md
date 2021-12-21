@@ -30,7 +30,7 @@
 |Жаргонни думи|[bg-jargon-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-jargon-cyrillic.txt?raw=true)|N/A|N/A|15264
 |Неологизми|[bg-neologisms-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-neologisms-cyrillic.txt?raw=true)|N/A|N/A|2381
 |Фразеологизми|[bg-idioms-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-idioms-cyrillic.txt?raw=true)|N/A|N/A|6924
-|Неприлични думи|[bg-obscene-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-obscene-cyrillic.txt?raw=true)|N/A|N/A|499
+|Неприлични думи|[bg-obscene-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-obscene-cyrillic.txt?raw=true)|N/A|N/A|469
 |Некатегоризирани думи|[bg-words-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-cyrillic.txt?raw=true)|[bg-words-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-latin.txt?raw=true)|[bg-words-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-6lyokavica.txt?raw=true)|752537
 |Всички думи|[all-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-cyrillic.txt?raw=true)|[all-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-latin.txt?raw=true)|[all-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-6lyokavica.txt?raw=true)|755130
 
