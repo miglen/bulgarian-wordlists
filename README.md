@@ -15,6 +15,7 @@
  * **Неологизми** - Списък с новите български думи. Източници: [[1]](http://ibl.bas.bg/infolex/neologisms.php)
  * **Фразеологизми** - Списък с устойчиви изрази (фрази или идиоми), обикновено с преносно значение, употребявани като готова единица в речта. Източник: [[1]](http://ibl.bas.bg/infolex/idioms.php)
  * **Неприлични думи** - Списък с неприлични (мръсни/нецензурирани) думи на български език. Източници: [[1]](https://github.com/zloban/obscene-words) [[2]](https://www.cs.cmu.edu/~biglou/resources/)
+ * **Абривиатури** - Списък с абривиатури и съкращения. Източници: [[1]](https://frazite.com/abbrevs-1.html)
 
 ### Единен граждански номер (ЕГН)
 Списък с единни граждански номера на български граждани. Списъка е подреден в отделни файлове по години, както и файл със всички възможни валидни номера. Източници: Генерирани номера от 1800г. до 2100г. и валидирани спрямо алгоритъма на ГРАО - ЕСРАГОН използвайки python модула за [egn](http://github.com/miglen/egn).
@@ -31,6 +32,7 @@
 |Неологизми|[bg-neologisms-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-neologisms-cyrillic.txt?raw=true)|N/A|N/A|2381
 |Фразеологизми|[bg-idioms-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-idioms-cyrillic.txt?raw=true)|N/A|N/A|6924
 |Неприлични думи|[bg-obscene-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-obscene-cyrillic.txt?raw=true)|N/A|N/A|469
+|Абривиатури|[bg-abbreviations-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-abbreviations-cyrillic.txt?raw=true)|N/A|N/A|13767
 |Некатегоризирани думи|[bg-words-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-cyrillic.txt?raw=true)|[bg-words-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-latin.txt?raw=true)|[bg-words-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/bg-words-6lyokavica.txt?raw=true)|752537
 |Всички думи|[all-cyrillic.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-cyrillic.txt?raw=true)|[all-latin.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-latin.txt?raw=true)|[all-6lyokavica.txt](https://github.com/miglen/bulgarian-wordlists/blob/master/wordlists/all-6lyokavica.txt?raw=true)|755130
 
